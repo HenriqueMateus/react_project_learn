@@ -1,9 +1,14 @@
-import React from 'react'
-import './app.css'
-import ListTec from'./components/listTec'
+import React from "react";
+import "./app.css";
+import ListTec from "./components/listTec";
+import BoxMenu from "./components/boxMenu";
+function App() {
+  return (
+    <>
+      <ListTec />
+      <BoxMenu />
+    </>
+  );
+}
 
-function App(){
-    return <ListTec />
-};
-
-export default App
+export default App;
