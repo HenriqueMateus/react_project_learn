@@ -1,13 +1,15 @@
 import React from "react";
+import 'bootstrap/dist/css/bootstrap.min.css'
 import "./app.css";
-import ListTec from "./components/listTec";
-import BoxMenu from "./components/boxMenu";
+import FixHeader from "./components/boxHeader/boxHeader";
+import AppRouter from "./test"
 function App() {
   return (
-    <>
-      <ListTec />
-      <BoxMenu />
-    </>
+    <div>
+      <FixHeader />
+      <AppRouter />
+    </div>
+      
   );
 }
 
