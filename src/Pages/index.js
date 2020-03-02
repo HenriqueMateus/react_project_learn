@@ -23,7 +23,7 @@ export default function Main() {
       setimgFilme(imgFilmes);
     }
     getFilme();
-  });
+  }, []);
   return (
     <div className="mainBody">
       <Navbar className="mb-5" bg="light" variant="light">
